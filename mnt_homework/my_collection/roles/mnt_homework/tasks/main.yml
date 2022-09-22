@@ -1,0 +1,5 @@
+---
+- name: RUN mnt_homework module
+      mnt_homework:
+        path: "/tmp/file.txt"
+        content: "default content"
