@@ -3,10 +3,3 @@
   hosts: localhost 
   roles:
     - mnt_homework
-
-#- hosts: localhost
-#  tasks:
-#    - name: RUN mnt_homework module
-#      mnt_homework:
-#        path: "/tmp/file.txt"
-#        content: "default content"
